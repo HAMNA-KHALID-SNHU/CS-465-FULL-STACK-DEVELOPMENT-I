@@ -1,37 +1,31 @@
-# CS-465-FULL-STACK-DEVELOPMENT-I
+# CS-465 Full Stack Development I
+# CS-465 Full Stack Development I
+## Travlr Getaways
 
-# Travlr Getaways
-
-## Course
-
+### Course
 CS-465 Full Stack Development I
 
 Southern New Hampshire University
 
-## Student
+---
 
-Hamna Khalid
+## Student Information
 
-Student ID: 2902671
+**Name:** Hamna Khalid
+
+**Student ID:** 2902671
 
 ---
 
-## Overview
+## Project Overview
 
-This project refactors the original Travlr Getaways static website into an Express application using the Model-View-Controller (MVC) architecture and the Handlebars templating engine.
+Travlr Getaways is a full stack web application developed throughout the CS-465 Full Stack Development I course. The project begins as a static website and is progressively enhanced into a complete web application using modern web development technologies and the Model-View-Controller (MVC) architecture.
 
-Module Two introduces:
-
-- Express routing
-- MVC architecture
-- Controllers
-- Handlebars templates
-- Handlebars partials
-- Dynamic page rendering
+Throughout the course, additional functionality, routing, templating, data management, and backend features are implemented as part of each module.
 
 ---
 
-## Technologies
+## Technologies Used
 
 - Node.js
 - Express.js
@@ -42,62 +36,17 @@ Module Two introduces:
 
 ---
 
-## Installation
+## Project Features
 
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run the application:
-
-```bash
-npm start
-```
-
-Open:
-
-```
-http://localhost:3000
-```
-
----
-
-## Available Pages
-
-- Home
-- Travel
-- Rooms
-- Meals
-- News
-- About
-- Contact
+- Express web server
+- MVC architecture
+- Dynamic routing
+- Handlebars templating
+- Reusable partial templates
+- Static asset management
+- Modular controllers
+- Organized application structure
 
 ---
 
 ## Project Structure
-
-```
-app_server/
-│
-├── controllers
-├── routes
-├── views
-│   ├── layouts
-│   └── partials
-│
-public/
-│
-app.js
-package.json
-README.md
-```
-
----
-
-## Author
-
-Hamna Khalid
-
-Southern New Hampshire University
