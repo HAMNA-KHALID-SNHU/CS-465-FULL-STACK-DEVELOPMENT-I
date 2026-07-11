@@ -1,6 +1,7 @@
 const news = (req, res) => {
     res.render('news', {
-        title: 'Travlr Getaways'
+        title: 'News',
+        news: true
     });
 };
 

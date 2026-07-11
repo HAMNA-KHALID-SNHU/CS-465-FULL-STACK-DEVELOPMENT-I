@@ -1,6 +1,7 @@
 const rooms = (req, res) => {
     res.render('rooms', {
-        title: 'Travlr Getaways'
+        title: 'Rooms',
+        rooms: true
     });
 };
 

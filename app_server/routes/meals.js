@@ -3,7 +3,6 @@ var router = express.Router();
 
 const ctrlMeals = require('../controllers/mealsController');
 
-/* GET Meals page */
 router.get('/', ctrlMeals.meals);
 
 module.exports = router;

@@ -1,6 +1,7 @@
 const about = (req, res) => {
     res.render('about', {
-        title: 'Travlr Getaways'
+        title: 'About',
+        about: true
     });
 };
 

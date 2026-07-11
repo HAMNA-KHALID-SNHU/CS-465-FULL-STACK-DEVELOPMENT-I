@@ -1,6 +1,7 @@
 const contact = (req, res) => {
     res.render('contact', {
-        title: 'Travlr Getaways'
+        title: 'Contact',
+        contact: true
     });
 };
 
